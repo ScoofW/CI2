@@ -21,7 +21,7 @@ class StatisticsServiceTest {
     void findMax100() {
         StatisticsService service = new StatisticsService();
 
-        long[] incomesInBillions = {0, 1, 5};  //условие сработает на 0
+        long[] incomesInBillions = {0, 1, 5};
         long expected = 5;
 
         long actual = service.findMax(incomesInBillions);
